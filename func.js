@@ -9,3 +9,6 @@ function triple (num) {
 
 var x = 2;
 double (x);
+
+
+document.querySelector("#double").textContent += `3 * 3 = ${triple(3)}`;
